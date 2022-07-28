@@ -1,6 +1,6 @@
 # CRUD Operation Project With Redux-Toolkit
 
-[Create React App](https://github.com/facebook/create-react-app).
+[Create React App](https://redux-toolkit234.netlify.app/).
 
 ## 1. Introduction To Redux
 

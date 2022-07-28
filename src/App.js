@@ -1,11 +1,8 @@
 import React from "react";
 import "./App.css";
+import Index from "./routes/Index";
 function App() {
-  return (
-    <div className="App">
-      <h1>React Redux And Redux-Toolkit Tutorial Practice.</h1>
-    </div>
-  );
+  return <Index />;
 }
 
 export default App;

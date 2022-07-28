@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 0.5rem;
+  paggine: 1rem;
+}
+article {
+  background-color: #293462;
+  color: white;
+  padding: 0.5rem;
+}
+
+@media screen (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen (min-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
